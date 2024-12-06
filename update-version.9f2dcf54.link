@@ -1,0 +1,32 @@
+{
+ "signatures": [
+  {
+   "keyid": "9f2dcf54e450858e1fa83c1cd9fb1edf65d8525071dbd7324582ec1394edb326",
+   "sig": "9570bb4d90266c28dae9fefa83be640b978018510474a0d80e4c466f02a3cc7c0fca2d1d4594c784737d76dfdd6bb0d83f40008048f4885aa2d72557f72a892cc2ee5b5beac6788bb1990459d90d388d66f62052f5f12cab50c6b3c430d262ce1e0cba77c70d7bec7f6ca68e141d84fae7d31bf40349cd4d1d33bd27d8eae452920884c49e5d78c5dcc2a6e663416be45a878144999318fe8d2b327fc02322c200142818d3a728f4d434c85e85681131b210f6e079ec1f8ba8456409d2388e3f8d71c2848353b9ef44fc213e9da278bfec3cea39618f8ae27aa7c27fbf414faa5397fa2492289deffaca81fa319fc71b75e22225f2e1c4cf2adc5d04ab8da3743277591499065f4ba7be29f24543fa8ab2793891ed7729feea0c93aafb380ec219507534cbf8c2456bd0c24fa1bb78a1f0294ed99900cd5f5c284510be4466e5818f416cd4a6a1f934a1f2d6a6fea9542bfe7d7924f1f2364c7fe91c6c2c88ad2f74e236339cb948fb22dc0bab4a6d18cbd00ec59c976ec55e15e25cb8b45bd0"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": ""
+  },
+  "command": [
+   "echo",
+   "Version has been updated"
+  ],
+  "environment": {},
+  "materials": {
+   "demo-project/foo.py": {
+    "sha256": "c2c0ea54fa94fac3a4e1575d6ed3bbd1b01a6d0b8deb39196bdc31c457ef731b"
+   }
+  },
+  "name": "update-version",
+  "products": {
+   "demo-project/foo.py": {
+    "sha256": "c2c0ea54fa94fac3a4e1575d6ed3bbd1b01a6d0b8deb39196bdc31c457ef731b"
+   }
+  }
+ }
+}

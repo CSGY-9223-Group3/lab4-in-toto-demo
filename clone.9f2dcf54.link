@@ -1,0 +1,73 @@
+{
+ "signatures": [
+  {
+   "keyid": "9f2dcf54e450858e1fa83c1cd9fb1edf65d8525071dbd7324582ec1394edb326",
+   "sig": "6da1af4a5b37db000271fca6402ac89ecabb50da3aa3834ec07faa737059688464df7cdf55cda65fa018441eec0504117b3a2006c51eabae11bdcbb0d77c10a5d3b1ff49f319dced7ec6bf832efda50f623f7d847f337cf6741e490060ac5aa3fdfd02e0c426f25fab664cb831fc26facc3d459b141748f5be841ef1847852a2a28fae62522a4d2f51850015b18f03a56b7783682e0831f98821b86a6f4f45cbd3168ef4cf9a848e3f6fe63b2c498187ca7489f79231a1a14cf12b88b2af989e7a439bcd30d73987634768582b9efef69985b746797e01b0a42189aea3955ae75d3501d1da8291728985f7dded6132a90b82197061365b00fa2eda6f3d8cff842603ca4ae7031e176084ac4a109a6c886ca3abc3af671540eefb12982b266b0b64696782ffa1f9537c6db4ae937bad05f31eb25e88f8378ff608bf1251a31e7dfd917985d59ca27393c673c4107bb9a749b7bdba3da5dff41a3e699433e147c546a52d172cae855864bd70a25dd9d305a459b95f227d519454fd1773017407c8"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": ""
+  },
+  "command": [
+   "git",
+   "clone",
+   "https://github.com/in-toto/demo-project.git",
+   "demo-project"
+  ],
+  "environment": {},
+  "materials": {
+   ".github/dependabot.yml": {
+    "sha256": "4fe1d2522552127dfa8cc07acc05b2829186e4c2a1a4eeab72a2c5e9f823b5d3"
+   },
+   ".github/workflows/ci.yml": {
+    "sha256": "fc3849f4ef2c0c8ea4fec956070bd18a19194ede69e2acbfa859306dc12171bf"
+   },
+   ".gitignore": {
+    "sha256": "8ab14cd235125472c13b24ee303120ce692de92ed34434759bd3afcf5a636e81"
+   },
+   "README.md": {
+    "sha256": "4ca8e15cf7582886a92d45be37628e1759bd9d17619a4118a2f4b6360fbcfa49"
+   },
+   "bob": {
+    "sha256": "9c0f47a1c566e8d31ef077939b4f461f6db586b093e6bf4615454d15c0d12a49"
+   },
+   "final_product/.keep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "functionary_bob/bob.pub": {
+    "sha256": "add49cf5eabe315c7167755f3c69914d61677abed5a4e18a99f6bb6d242e943f"
+   },
+   "functionary_carl/carl.pub": {
+    "sha256": "eb8bdfa6cc6dd83a70c7b8c194c61b998cc4a3ab780d85f49f77877f83ac7b05"
+   },
+   "generate_bob_keys.py": {
+    "sha256": "2b74d1716c03f9cd0691490d228098e8e56924e9813dba6517fced64ef0d8c3a"
+   },
+   "owner_alice/alice.pub": {
+    "sha256": "117a903356bbbeabda0ba58f696536399c8c36fc4d6bdd27abd7dac1c352bfc8"
+   },
+   "owner_alice/create_layout.py": {
+    "sha256": "349e6f12ea39b49fc847c77b28e2c2247afb04d0c329c8bce93d66305db83f87"
+   },
+   "requirements.txt": {
+    "sha256": "9e547ddf04a5d813ec695c9315d3ca46109f34f06fb99cc727d8213164bf9721"
+   },
+   "run_demo.py": {
+    "sha256": "c7efc5bacaa8b4a1dddf3209f0a4a84145072d831f1a0fc868aa4a3507bffe82"
+   },
+   "run_demo_md.py": {
+    "sha256": "f1d39ec82a26ad63615702f43aea4485ff15a32745ac6a549262641f436142dc"
+   }
+  },
+  "name": "clone",
+  "products": {
+   "demo-project/foo.py": {
+    "sha256": "ebebf8778035e0e842a4f1aeb92a601be8ea8e621195f3b972316c60c9e12235"
+   }
+  }
+ }
+}
